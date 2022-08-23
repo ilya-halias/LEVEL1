@@ -1,0 +1,59 @@
+@import"variables";
+header{
+  background:url("/src/img/banner.png");
+  background-repeat: no-repeat;
+}
+.navigation{
+  padding: 35px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+&:after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color:#BABBC5;
+  margin: 0 auto;
+  top: 100px;
+}
+}
+.allblock{
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 15px 0;
+}
+header {
+  h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 130px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 35px;
+  }
+
+  button {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 80px;
+    background: #FF4343;
+    padding: 30px 90px;
+    margin-bottom: 120px;
+  }
+}

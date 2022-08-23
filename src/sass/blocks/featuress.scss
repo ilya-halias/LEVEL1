@@ -1,0 +1,26 @@
+.featuress{
+  h2 {
+    color: #2D3033;
+    text-transform: uppercase;
+    margin-top:29px;
+  }
+  p{
+    color: #6C7279;
+    margin-top: 20px;
+  }
+  li{
+    max-width: 370px;
+    padding-top: 90px;
+  }
+}
+
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.featuress{
+  padding-top: 25px;
+  padding-bottom: 115px;
+}
