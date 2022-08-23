@@ -1,0 +1,42 @@
+footer{
+  background: #353C65;
+}
+.contacts{
+  ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+  }
+  li{
+    max-width: 370px;
+  }
+  p{
+    margin-top: 30px;
+  }
+  span{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  a{
+    margin:50px 0 0 0;
+  }
+}
+.copiright{
+  background: #2C3154;
+  padding: 24px;
+
+}
+.copiright{
+h4{
+  max-width: 370px;
+  color: #808080;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+
+}
+p{
+color: #ffffff
+}
+}

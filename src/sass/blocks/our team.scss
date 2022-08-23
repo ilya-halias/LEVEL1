@@ -1,0 +1,47 @@
+.ourteam{
+  padding: 115px 0;
+}
+.person{
+  display: flex;
+  justify-content: space-between;
+}
+.person-card {
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #2D3033;
+    margin-top: 25px;
+  }
+
+  h3 {
+    color: #FF4343;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+  a{
+    margin: 0;
+    padding:0;
+  }
+
+  p {
+    text-align: left;
+    margin-top: 25px;
+    color: #6C7279;
+  }
+  img{
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+  .social{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.person-card{
+  max-width: 270px;
+}

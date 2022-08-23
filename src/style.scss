@@ -1,8 +1,10 @@
 @import "sass/blocks/header";
 @import "sass/blocks/featuress";
-
-
-
+@import "sass/blocks/our team";
+@import "sass/blocks/testimonials";
+@import "sass/blocks/download";
+@import "sass/blocks/footer";
+@import "sass/blocks/works";
 
 
 *{
@@ -11,7 +13,10 @@
   padding: 0;
   text-align: center;
 text-decoration: none;
+  font-family: Raleway;
+  cursor: pointer;
   color: #FFFFFF;
+  max-width: 1510px;
 }
 .container{
   max-width: 1170px;
