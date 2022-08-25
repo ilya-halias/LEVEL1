@@ -1,14 +1,45 @@
-.rooms{
-  display: flex;
-  flex-wrap: wrap;
+.works{
   max-width: 1510px;
 }
-.rooms{
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.pic_wrapper{
+  object-fit: cover;
+
+  position: relative;
+  display: flex;
+  margin: 0;
   img{
-    padding: 0;
     margin: 0;
-    max-width: 378px;
-    max-height: 340px;
-    border: none;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.text_wrapper{
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.pic_wrapper:hover .text_wrapper{
+  display: flex;
+  position: absolute;
+  background-color: #FF4343;
+  opacity: 0.7;
+
+}
+@media(max-width: 1024px){
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 }

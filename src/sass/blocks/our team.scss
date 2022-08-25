@@ -35,6 +35,8 @@
   img{
     margin: 0;
     padding: 30px 0;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
   .social{
@@ -44,4 +46,66 @@
 }
 .person-card{
   max-width: 270px;
+}
+@media (max-width: 1510px){
+  .ourteam{
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 78px 0;
+  }
+  .person-card {
+    h2 {
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    a{
+      margin: 0;
+      padding:0;
+    }
+
+    p {
+      margin-top: 22px;
+      font-size: 14px;
+      line-height: 16px;
+
+    }
+    img{
+      padding: 40px 0;
+    }
+  }
+  .person-card{
+    max-width: 227px;
+  }
+}
+@media (max-width: 1024px){
+  .person{
+    flex-direction: column;
+  }
+  .person-card {
+    a{
+      margin: 0;
+      padding:0;
+    }
+
+    p {
+      margin-top: 38px;
+      font-size: 14px;
+      line-height: 16px;
+
+    }
+    img{
+      padding: 55px 0;
+    }
+  }
+  .person-card{
+    min-width: 280px;
+  }
+  .ourteam{
+    margin: 0 auto;
+    padding: 35px 0;
+  }
 }
