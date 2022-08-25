@@ -1,13 +1,19 @@
 @import"variables";
 header{
-  background:url("/src/img/banner.png");
+  background-image:url("/src/img/banner.png");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  max-width: 1170px;
+
 }
 .navigation{
   padding: 35px 0;
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 &:after{
   position: absolute;
   content: "";
@@ -57,4 +63,76 @@ header {
     margin-bottom: 120px;
     color: #FFFFFF;
     border: none;
+  }
+@media (max-width: 1510px) {
+  .header-container{
+    max-width: 992px;
+  }
+  header {
+    h1 {
+      font-size: 48px;
+      margin-top: 157px;
+      max-width: 760px;
+    }
+
+    p {
+      margin-top: 60px;
+      font-size: 16px;
+      max-width: 760px;
+    }
+  }
+  button {
+    margin-top: 90px;
+    padding: 30px 62px;
+    margin-bottom: 126px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    max-width: 280px;
+    display: block;
+  }
+  .navigation{
+    flex-direction: column;
+  }
+  .navigation:after{
+    display: none;
+  }
+  .allblock{
+    flex-direction: column;
+  }
+  .logo{
+    max-width: 104px;
+    max-height: 15px;
+    padding: 20px 0;
+  }
+  .allblock-element{
+    padding: 25px 0;
+    margin: 0 ;
+    text-align: start;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+
+
+  }
+  .header-container {
+      h1 {
+        font-size: 36px;
+        margin-top: 50px;
+      }
+
+      p {
+        margin-top: 32px;
+        font-size: 14px;
+        padding: 0;
+      }
+    }
+
+    button {
+      margin-top: 50px;
+      padding: 13px 48px;
+      margin-bottom: 52px;
+    }
   }
