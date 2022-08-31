@@ -4,9 +4,13 @@
 }
 .opinions{
   display: flex;
+  object-fit: cover;
 }
 .text{
-  padding: 115px 170px 140px 130px;
+  padding: 118px 170px 140px 130px;
+}
+.ledies{
+  object-fit: cover;
 }
 .testimonials{
   h2{
@@ -19,10 +23,42 @@
 
   }
   p{
+    margin-top: 23px;
     font-size: 13px;
     font-weight: 700;
-    line-height: 15px;
     text-align: left;
     text-transform: uppercase;
   }
+}
+@media(max-width: 1510px){
+  .text{
+    padding: 47px 44px 129px 88px;
+  }
+  .ledies{
+    max-width: 600px;
+  }
+
+}
+@media(max-width: 1024px) {
+  .opinions{
+    flex-direction: column;
+    img{
+      object-fit: cover;
+      margin: 0;
+    }
+  }
+  .ledies{
+    max-width: none;
+  }
+  .text{
+    padding: 0 45px 120px 45px;
+  }
+  .testimonials{
+    h2{
+      font-size: 24px;
+    }
+    p{
+      font-size: 12px;
+    }
+}
 }

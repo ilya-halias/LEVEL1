@@ -9,7 +9,6 @@ header{
 
 }
 .navigation{
-  padding: 35px 0;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -27,8 +26,13 @@ header{
 .allblock{
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
-  padding: 15px 0;
+}
+.allblock-element{
+  padding: 41px 32px;
+  font-size: 13px;
+}
+.allblock-element:hover{
+  border-bottom: 5px solid#BABBC5;
 }
 header {
   h1 {
@@ -36,6 +40,7 @@ header {
     font-weight: 900;
     color: #FFFFFF;
     margin-top: 130px;
+    text-transform: uppercase;
   }
 
   .logo {
@@ -51,7 +56,7 @@ header {
     margin-top: 30px;
     font-size: 24px;
     font-weight: 400;
-    padding: 0 35px;
+    padding: 0 85px;
   }
 }
   button {
@@ -59,7 +64,7 @@ header {
     font-weight: 900;
     margin-top: 80px;
     background: #FF4343;
-    padding: 30px 90px;
+    padding: 25px 90px;
     margin-bottom: 120px;
     color: #FFFFFF;
     border: none;
@@ -136,3 +141,6 @@ header {
       margin-bottom: 52px;
     }
   }
+.allblock-element:hover{
+  border-bottom: none;
+}

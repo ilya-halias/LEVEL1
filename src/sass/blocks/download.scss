@@ -1,5 +1,5 @@
 .download{
-  padding: 115px;
+  padding: 158px 0 0;
 }
 .download{
   h2{
@@ -15,20 +15,20 @@
     line-height: 21px;
     text-align: center;
     color: #000000;
-    margin-top: 10px;
-
+    margin-top: 24px;
+text-transform: uppercase;
   }
   button{
-    margin: 45px 0 0 0;
+    margin-top: 50px;
   }
 }
 @media (max-width: 1510px) {
   .download{
-    padding: 115px;
+    padding: 115px 0;
   }
   .download{
     button{
-      margin: 50px 0 0 0;
+      margin: 50px 0 auto 0;
     }
   }
 
@@ -51,12 +51,10 @@
     }
 
     button {
-      margin: 45px 0 0 0;
+      margin: 45px 0 auto 0;
       font-size: 18px;
       font-weight: 900;
       line-height: 21px;
-
-
     }
   }
 }

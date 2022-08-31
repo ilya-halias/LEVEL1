@@ -5,10 +5,10 @@ footer{
   ul{
     display: flex;
     justify-content: space-between;
-    padding: 70px;
+    padding: 62px 0 ;
   }
   li{
-    max-width: 370px;
+    max-width: 312px;
   }
   p{
     margin-top: 30px;
@@ -39,4 +39,21 @@ h4{
 p{
 color: #ffffff
 }
+}
+@media(max-width: 1510px){
+  .contacts{
+    ul{
+      padding: 70px 0;
+    }
+  }
+}
+@media(max-width: 1024px){
+  .contacts{
+    ul{
+     flex-direction: column;
+    }
+    li{
+      padding-top: 60px;
+    }
+  }
 }

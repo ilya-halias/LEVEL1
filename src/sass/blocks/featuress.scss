@@ -2,14 +2,14 @@
   h2 {
     color: #2D3033;
     text-transform: uppercase;
-    margin-top:29px;
+    margin-top:48px;
     font-size: 24px;
     font-weight: 900;
 
   }
   p{
     color: #6C7279;
-    margin-top: 20px;
+    margin-top: 43px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -17,6 +17,7 @@
   li{
     max-width: 370px;
     padding-top: 90px;
+    margin: 0;
   }
 }
 
@@ -28,7 +29,7 @@
 }
 .featuress{
   padding-top: 25px;
-  padding-bottom: 115px;
+  padding-bottom: 135px;
 }
 
 @media (max-width: 1510px) {
@@ -44,7 +45,7 @@
       line-height: 16px;
     }
     li{
-      max-width: 315px;
+      min-width: 315px;
       padding-top: 42px;
     }
     img{
@@ -59,7 +60,7 @@
 }
 @media (max-width: 1024px) {
   .featuress {
-    max-width: 280px;
+    min-width: 280px;
     flex-direction: column;
 
     h2 {
@@ -79,5 +80,9 @@
   .featuress{
     padding-top: 42px;
     padding-bottom: 80px;
+  }
+  .list{
+    flex-direction: column;
+    align-items: center;
   }
 }
