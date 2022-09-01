@@ -98,6 +98,9 @@ header {
     max-width: 280px;
     display: block;
   }
+  .allblock-element:hover{
+    border-bottom: none;
+  }
   .navigation{
     flex-direction: column;
   }
@@ -141,6 +144,4 @@ header {
       margin-bottom: 52px;
     }
   }
-.allblock-element:hover{
-  border-bottom: none;
-}
+
